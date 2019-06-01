@@ -2,7 +2,7 @@ install.packages('devtools')
 library(devtools)
 devtools::install_github("dkahle/ggmap")
 library(ggmap)
-register_google(key = "AIzaSyxxxxxxxxxxxxxxxxxxxxxxxx_IEAZtc")
+register_google(key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
 addresses <- read.csv("input.csv", header=TRUE, stringsAsFactors = FALSE)
 address_list <- unique(addresses$address)
 
